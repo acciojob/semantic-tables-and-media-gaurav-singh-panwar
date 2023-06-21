@@ -1,36 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
 table {
-  width: 100%;
   border-collapse: collapse;
+  width: 100%;
 }
 
 table th,
 table td {
-  border: 1px solid black;
+  border: 1px solid #ccc;
   padding: 8px;
-  text-align: center;
-}
-
-h1,
-h2 {
-  text-align: center;
 }
 
 ol {
-  margin-top: 20px;
-  list-style-type: decimal;
-  text-align: left;
+  padding-left: 20px;
 }
 
 li {
   margin-bottom: 10px;
 }
 
-video,
-audio {
-  width: 100%;
-}
-
 img {
   max-width: 100%;
   height: auto;
+}
+
+video {
+  width: 100%;
+}
+
+audio {
+  width: 100%;
 }
