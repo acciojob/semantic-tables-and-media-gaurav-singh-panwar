@@ -1,29 +1,36 @@
-
-/* Your CSS Code here. */
 table {
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: collapse;
 }
 
-table th, table td {
+table th,
+table td {
   border: 1px solid black;
   padding: 8px;
+  text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
 ol {
   margin-top: 20px;
   list-style-type: decimal;
+  text-align: left;
 }
 
 li {
   margin-bottom: 10px;
 }
 
-video, audio {
+video,
+audio {
   width: 100%;
-  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
