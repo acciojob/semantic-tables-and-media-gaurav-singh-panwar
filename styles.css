@@ -19,3 +19,11 @@ li {
 img {
   width: 200px;
 }
+
+video {
+  width: 500px;
+}
+
+source {
+  src: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4;
+}
