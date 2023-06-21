@@ -1,45 +1,21 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-
-h1 {
-  color: #333;
-}
-
-h2 {
-  color: #666;
-}
-
 table {
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: collapse;
 }
 
-table th,
-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
+th, td {
+  border: 1px solid black;
+  padding: 5px;
 }
 
-ol {
-  padding-left: 20px;
+th {
+  text-align: center;
 }
 
 li {
-  margin-bottom: 10px;
+  list-style-type: decimal;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-}
-
-video {
-  width: 100%;
-}
-
-audio {
-  width: 100%;
+  width: 200px;
 }
